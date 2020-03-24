@@ -1,0 +1,1376 @@
+body
+    margin: 0
+    padding: 0
+    p
+        margin: 0
+    .header
+        .container
+            max-width: 100%
+            padding: 0
+        .d-inline-block
+            display: grid !important
+        .img-fluid
+            width: fill-available
+        &__nav_flex
+            display: flex
+            justify-content: space-between
+            width: 50%
+        &__nav_flex ul
+            display: flex
+            padding: 0
+            margin: 0
+            list-style: none
+            justify-content: space-evenly;
+            width: fill-available;
+        &__nav_flex ul li a
+            text-decoration: none
+            color: #ffffff
+            font-family: 'Montserrat', sans-serif;
+        &__nav_flex ul li
+            align-self: center
+        &__contact_flex
+            display: flex
+            justify-content: space-evenly
+            width: 35%
+            justify-content: flex-end
+        .pr
+            margin-right: 50px
+        &__wrap_mob_menu
+            display: none
+        &__contact_flex a
+            align-self: center
+        &__wrap_nav
+            display: flex
+            justify-content: space-around
+            position: absolute;
+            z-index: 1;
+            width: 100%;
+            margin-top: 35px
+        a
+            display: inline-block
+            color: #ffffff
+            line-height: 1
+            text-decoration: none
+            cursor: pointer
+            position: relative
+        
+        a:after
+            background-color: #000000
+            display: block
+            content: ""
+            height: 2px
+            width: 0%
+            left: 50%
+            position: absolute
+            -webkit-transition: width .3s ease-in-out
+            -moz--transition: width .3s ease-in-out
+            transition: width .3s ease-in-out
+            -webkit-transform: translateX(-50%)
+            -moz-transform: translateX(-50%)
+            transform: translateX(-50%)
+            margin-top: 1%
+        
+        a:hover:after,
+        a:focus:after
+            width: 100%
+        ol, span
+            display: none
+        .carousel-caption
+            display: flex
+            justify-content: space-between
+            top: 0
+            margin-top: 20%
+        &__first_name, &__last_name, &__three_name
+            color: #ffffff
+            font-family: 'Montserrat', sans-serif;
+            font-size: 54px
+            font-weight: 900
+            line-height: 100.56%
+            text-align: left
+            letter-spacing: 0.03em
+        &__three_name
+            margin-bottom: 32px
+        &__info_name
+            font-family: Montserrat;
+            font-style: normal;
+            font-weight: bold;
+            font-size: 18px;
+            line-height: 24px;
+            text-align: left
+        &__info_man p
+            font-family: Montserrat;
+            font-style: normal;
+            font-weight: bold;
+            font-size: 24px;
+            line-height: 120%;
+            text-align: center;
+            color: #FFFFFF;
+            padding-left: 10px
+        &__info_econom, &__info_year
+            color: #000000 !important
+        &__wrap_case a, &__wrap_work a
+            font-family: Montserrat;
+            font-style: normal;
+            font-weight: bold;
+            font-size: 14px;
+            line-height: 17px;
+            color: #FFFFFF;
+            margin-right: 10px
+        &__wrap_work a
+            margin-left: 15px
+        &__wrap_case a
+            margin-left: 15px
+        &__wrap_case, &__wrap_work
+            display: flex
+            align-items: center
+            justify-content: center
+        &__arrow_img
+            display: flex
+        .d-flex
+            margin-bottom: 31px
+        &__wrap_case
+            margin-bottom: 90px
+        &__wrap_work
+            margin-top: 31px
+        &__name
+            margin-left: -10%
+        &__info_man
+            margin-right: -10%
+        .carousel-caption
+            z-index: auto
+        .d-inline-block
+            justify-content: normal
+    .form
+        display: flex
+        margin-top: -1px
+        flex-wrap: wrap
+        &__section_one
+            background-color: #000000
+            width: 60%
+            color: #ffffff
+        &__section_one p
+            font-family: Montserrat;
+            font-style: normal;
+            font-weight: bold;
+            font-size: 54px;
+            line-height: 120%;
+        &__section_one .d-flex
+            justify-content: center
+            letter-spacing: 2px
+        .smeta
+            margin-left: -33px
+        .smeta_dbl
+            margin-left: -285px
+            margin-bottom: 241px
+        .build
+            margin-top: 319px
+        &__section_two
+            margin: 0 auto
+        .row
+            flex-direction: column
+        .fileContainer
+            overflow: hidden;
+            position: relative;
+        .fileContainer [type=file] 
+            filter: alpha(opacity=0);
+            opacity: 0;
+            display: none
+        .fileContainer
+            background: none;
+            float: left;
+            padding-left: 19px;
+            padding-right: 19px;
+            padding-top: 15px;
+            padding-bottom: 15px;
+            cursor: pointer;
+            border: 2px solid #EA7303;
+            color: #EA7303;
+            width: 49%;
+            height: 59px;
+            margin: 0;
+            font-weight: bold
+            margin-bottom: 43px
+            display: flex
+        .fileContainer:hover
+            background-color: #EA7303
+            color: #ffffff
+        .fileContainer i
+            transform: rotateX(190deg);
+            font-size: 25px;
+            padding-right: 5px
+        .fileContainer [type=file]
+            cursor: pointer;
+        .fileContainer img
+            margin-right: 2px
+        &__info_project input
+            border: none
+            border-bottom: 1px solid #949494;
+            border-radius: 0px
+        &__info_project input::placeholder, &__info_project input
+            font-family: Montserrat;
+            font-style: normal;
+            font-weight: normal;
+            font-size: 14px;
+            line-height: 15px;
+            color: #888888;
+        &__title
+            font-family: Montserrat;
+            font-style: normal;
+            font-weight: bold;
+            font-size: 40px;
+            line-height: 100.56%;
+            color: #000000;
+            margin-bottom: 26px
+        &__title_info, &__title_info .d-flex p
+            font-family: Montserrat;
+            font-style: normal;
+            font-weight: normal;
+            font-size: 14px;
+            line-height: 18px;
+            color: #000000;
+        &__number
+            color: #EA7303
+        &__project_title
+            font-family: Montserrat;
+            font-style: normal;
+            font-weight: bold;
+            font-size: 21px;
+            line-height: 100.56%;
+            color: #000000
+            margin-top: 38px
+        &__wrap_title_info
+            margin-top: 104px
+        &__info_project
+            margin-top: 45px
+            margin-bottom: 33px
+        &__contact
+            font-family: Montserrat;
+            font-style: normal;
+            font-weight: bold;
+            font-size: 21px;
+            line-height: 100.56%;
+            color: #000000;
+            margin-bottom: 40px
+        .form-row input
+            border-radius: 0px
+            font-family: Montserrat;
+            font-style: normal;
+            font-weight: normal;
+            font-size: 14px;
+            line-height: 15px;
+            color: #888888;
+            border: none;
+            border-bottom: 1px solid #949494;
+            margin-bottom: 42px
+        &__wrap_personal_data
+            display: flex
+            justify-content: space-between
+            margin-top: 55px;
+            margin-bottom: 78px
+        &__wrap_personal_data button
+            width: 49%;
+            height: 59px;
+            border: 2px solid #EA7303
+            font-family: Montserrat;
+            font-style: normal;
+            font-weight: bold;
+            font-size: 15px;
+            line-height: 17px
+            background: none
+            color: #EA7303
+        &__wrap_personal_data button:hover
+            background-color: #EA7303
+            color: #ffffff
+        &__personal_data p, &__personal_data a
+            font-family: Montserrat;
+            font-style: normal;
+            font-weight: normal;
+            font-size: 13px;
+            line-height: 15px;
+            color: #888888;
+        &__personal_data a
+            color: #EA7303
+        .form-row .col
+            padding-left: 10px
+            padding-right: 10px
+        input:active, input:hover, input:focus
+            outline: 0;
+            outline-offset: 0;
+        .form-control:focus
+            border-color: #949494
+            box-shadow: none
+        &__title_text
+            height: 100%;
+            display: flex;
+            align-items: center;
+            padding-left: 12%
+            padding-right: 5%
+        
+    .order_work
+        background-color: #000000
+        margin-top: -1%
+        &__wrap_title
+            font-family: Montserrat;
+            font-style: normal;
+            font-weight: bold;
+            font-size: 54px;
+            line-height: 120%;
+            color: #FFFFFF;
+            margin-right: 7%
+            margin-left: 7%
+            margin-bottom: 70px
+        &__order
+            padding-top: 78px
+        &__info_work
+            background-color: #fff
+            margin-bottom: 32px
+        &__info_work p
+            font-family: Montserrat;
+            font-style: normal;
+            font-weight: bold;
+            font-size: 18px;
+            line-height: 120%;
+            text-align: center;
+            color: #000000;
+        &__info_work .d-flex
+            justify-content: center
+            padding-bottom: 65px
+        &__wrap_info_work
+            display: flex
+            margin-left: 7%
+            margin-right: 7%
+            justify-content: space-between
+            flex-wrap: wrap
+            padding-bottom: 75px
+        &__info
+            padding-top: 47px
+            padding-bottom: 50px
+
+        &__dbl_info_work
+            display: flex
+            margin-left: 7%
+            margin-right: 7%
+        &__wrap_info_work .d-flex img, &__dbl_info_work .d-flex img
+            padding-left: 77px
+            padding-right: 77px
+        .info_project
+            margin-left: 15px
+            margin-right: 15px
+        .team_work
+            margin-right: 344px
+            
+    .faq
+        background-color: #E5E5E5
+        margin-top: -1%
+        padding-left: 7%
+        padding-right: 7%
+        &__wrap_title
+            padding-top: 78px
+        &__title
+            font-family: Montserrat;
+            font-style: normal;
+            font-weight: bold;
+            font-size: 54px;
+            line-height: 100.56%;
+            color: #000000;
+            padding-bottom: 37px
+        &__title_info
+            font-family: Montserrat;
+            font-style: normal;
+            font-weight: normal;
+            font-size: 18px;
+            line-height: 18px;
+            color: #000000;
+            padding-bottom: 53px
+        .spoiler-title
+            cursor: pointer;
+            display: flex;
+            justify-content: space-between;
+            padding-right: 35px;
+            padding-left: 56px;
+            align-items: center;
+            padding-top: 17px;
+            padding-bottom: 17px;
+            font-family: Montserrat;
+            font-style: normal;
+            font-weight: bold;
+            font-size: 21px;
+            line-height: 100.56%;
+            color: #000000;
+            border: 1px solid #BCBCBC;
+        .spoiler-body
+            display: none;
+            background-color: #fff
+            border: 1px solid #BCBCBC
+        &__wrap_slide button
+            width: fill-available
+        &__wrap_slide
+            margin-bottom: 16px
+        &__text_slide
+            font-family: Montserrat;
+            font-style: normal;
+            font-weight: bold;
+            font-size: 21px;
+            line-height: 100.56%;
+            color: #000000;
+            padding-top: 29px
+            padding-left: 56px
+            padding-bottom: 23px
+        &__text_info_slide
+            font-family: Montserrat;
+            font-style: normal;
+            font-weight: normal;
+            font-size: 18px;
+            line-height: 24px;
+            color: #000000;
+            padding-bottom: 35px
+            padding-left: 56px
+            padding-right: 60px
+        &__slide_down
+            flex-direction: column
+            padding-bottom: 80px
+    .work
+        padding-left: 7%
+        padding-right: 7%
+        background-color: #111111
+        &__wrap_title_info
+            padding-top: 89px
+            display: flex
+            justify-content: space-between
+  
+        &__wrap_info p
+            font-family: Montserrat;
+            font-style: normal;
+            font-weight: normal;
+            font-size: 16px;
+            line-height: 26px;
+            color: #FFFFFF;
+        &__wrap_info
+            width: 85%
+        &__wrap_pic
+            display: flex
+            justify-content: space-between
+            margin-top: 40px
+        &__wrap_pic p, &__wrap_pic li
+            color: #ffffff
+        &__title
+            font-family: Montserrat;
+            font-style: normal;
+            font-weight: bold;
+            font-size: 24px;
+            line-height: 40px;
+            margin-top: 30px
+            margin-bottom: 20px
+        &__story_title, &__build_title, &__company_title
+            font-family: Montserrat;
+            font-style: normal;
+            font-weight: bold;
+            font-size: 20px;
+            line-height: 30px;
+        &__story_title
+            margin-bottom: 12px
+        &__story_info, &__build_info, &__company_info
+            font-family: Montserrat;
+            font-style: normal;
+            font-weight: normal;
+            font-size: 14px;
+            line-height: 26px;
+            margin-bottom: 12px
+        &__build_info
+            margin-top: 12px
+        &__list_title, &__number_list
+            font-family: Montserrat;
+            font-style: normal;
+            font-weight: bold;
+            font-size: 16px;
+            line-height: 26px;
+            margin-bottom: 12px
+        &__list_title ul li, &__wrap_company_info ol li
+            font-family: Montserrat;
+            font-style: normal;
+            font-weight: normal;
+            font-size: 14px;
+            line-height: 26px;
+        ul
+            padding-left: 3%
+            padding-bottom: 98px
+        li
+            list-style-image: url('../img/bullet.svg')
+        &__story .d-flex img
+            width: 7px;
+            margin-top: 5px;
+            margin-left: -10px;
+            margin-right: 5px;
+
+        &__story .d-flex
+            align-items: center
+            height: fill-available
+            //margin-top: 25px
+        &__story, &__build
+            width: 235%
+        &__build
+            padding-left: 5%
+            padding-right: 5%
+        &__wrap_company_info img
+            margin-bottom: 25px
+            height: 30%
+        &__company_info
+            margin-top: 12px
+        &__wrap_company_info ol li p
+            padding-right: 10px
+            font-weight: bold
+        &__wrap_company_info ol
+            padding: 0  
+        &__wrap_company
+            //padding-left: 5%
+        &__title_top
+            font-family: Montserrat;
+            font-style: normal;
+            font-weight: bold;
+            font-size: 24px;
+            line-height: 40px;
+            color: #FFFFFF;
+        &__wrap_info
+            margin-top: 23px
+        &__title_wrap
+            width: 78%
+        &__title_wrap img
+            width: 95%
+            height: 30%
+        &__wrap_company_info
+            display: flex;
+            flex-direction: column;
+            width: 35%;
+        .mb
+            margin-bottom: 90px
+
+    .footer
+        background-color: #000000
+        padding-left: 7%
+        padding-right: 7%
+        margin-top: -1%
+        position: absolute
+        width: fill-available
+        p
+            color: #C4C4C4;
+        &__wrap
+            display: flex
+            justify-content: space-between
+        &__wrap_info, &__wrap_social
+            display: flex
+            align-items: center
+            padding-bottom: 42px
+            padding-top: 39px
+        &__wrap_info p
+            margin-left: 35px
+        &__wrap_social i
+            color: #ffffff
+            font-size: 27px
+            margin-left: 10px
+            cursor: pointer
+        i:hover
+            color: #F7960A
+        &__wrap_social
+            width: 30%
+            margin-right: 20%
+            justify-content: space-evenly
+        &__wrap_social p
+            margin-right: 10%
+
+
+       
+    @media screen and ( max-width:1920px)
+        .order_work 
+            .info_project
+                margin-left: 0
+            .team_work
+                margin-left: 55px
+                margin-right: 0
+            &__info_work
+                margin-left: 15px
+                margin-right: 15px
+                
+    @media screen and ( max-width:1767px)
+        .order_work
+            &__wrap_info_work
+                justify-content: space-around !important
+
+
+    @media screen and (max-width:1440px)
+        .order_work
+            .team_work
+                margin-right: 322px
+    
+
+        
+
+
+    @media screen and (max-width:1280px)
+        .header
+            &__name
+                margin-left: -15%
+            &__info_man
+                margin-right: -15%
+            &__info_man p
+                font-size: 22px
+        .order_work
+            .team_work
+                margin-right: 0
+            &__wrap_info_work
+                justify-content: space-between
+            .one_info, .two_info, .four_info
+                margin-right: 15px
+            .info_project
+                margin-left: 15px
+                margin-right: 0px
+        .work
+            &__wrap_title
+                width: 72%
+            &__wrap_img img
+                width: 100%
+                height: 100%
+            .mb
+                margin-bottom: 125px
+            &__title_wrap img, &__wrap_company_info img
+                height: 25%
+
+    @media screen and ( max-width:1199px)
+        .form
+            flex-direction: column
+            &__section_one, &__section_two
+                width: 100%
+            &__title_text
+                padding-left: 7%
+                padding-top: 78px
+                padding-bottom: 78px
+            &__section_two
+                padding-left: 7%
+                padding-right: 7%
+            .fileContainer, &__wrap_personal_data button
+                width: 30%
+                justify-content: center
+            &__wrap_personal_data
+                justify-content: normal
+            &__personal_data
+                margin-left: 30px
+
+
+
+        
+        
+
+    @media screen and (max-width:1024px)
+        .header
+            &__contact_flex
+                width: 33%
+            &__logo
+                margin-left: -10px
+            .pr
+                padding-right: 20px
+            &__wrap_nav
+                display: none
+            &__wrap_mob_menu
+                position: absolute
+                z-index: 1
+                display: block
+            .btn 
+                height: 20px;
+                width: 30px;
+                cursor: pointer;
+                z-index: 2;
+                margin-left: 90%;
+                position: fixed 
+                margin-top: 15px
+            .btn::before, .btn::after 
+                content: '';
+                position: absolute;
+                width: 100%;
+                height: 5px;
+                background: #fff;
+                -webkit-transition: all .5s ease;
+                transition: all .5s ease;
+                margin-top: 4px;
+                border: 1px solid #000000
+                border-radius: 10px
+            .btn::after 
+                bottom: 13px;
+
+            .btn.active::before, .btn.active::after 
+                -webkit-transform-origin: center;
+                transform-origin: center;
+                top: 50%;
+            .btn.active::before 
+                -webkit-transform: rotate(45deg);
+                transform: rotate(45deg);
+                z-index: 2
+                margin-top: 0px
+            .btn.active::after 
+                -webkit-transform: rotate(-45deg);
+                transform: rotate(-45deg);
+                z-index: 2
+                margin-top: 0px
+            .mnu-wrap 
+                right: -100%;
+                top: 0;
+                position: fixed;
+                height: 100%;
+                background: #EA7303;
+                min-width: 300px;
+                z-index: 1;
+                -webkit-transition: all .5s ease;
+                transition: all .5s ease;
+            .mnu-wrap.active 
+                right: 0;
+            .mnu-wrap .mnu 
+                position: relative;
+                top: 50%
+                -webkit-transform: translateY(-50%);
+                transform: translateY(-50%);
+                padding: 0 50px;
+            .mnu-wrap .mnu__list 
+                list-style-type: none;
+                padding: 0;
+                margin: 0;
+            .mnu-wrap .mnu__list li 
+                margin-bottom: 20px;
+                -webkit-transition: all .5s ease;
+                transition: all .5s ease;
+            .mnu-wrap .mnu__list li:hover 
+                border-left: 3px solid #ffffff
+                padding-left: 10px;
+                
+
+            .mnu-wrap .mnu__list li a 
+                text-decoration: none;
+                color: #242424;
+                font-size: 20px;
+                font-family: 'Roboto', sans-serif;
+            .carousel-caption
+                flex-direction: column
+                margin-top: 10%
+                width: 45%
+            &__info_man
+                display: none
+            &__first_name, body &__last_name,
+            &__three_name
+                font-size: 48px
+            &__name
+                margin-left: -25%
+            &__wrap_case
+                margin-bottom: 0
+            &__wrap_case a, &__wrap_work a
+               color: #000000
+            &__mob_info_man
+                margin-left: -35px
+                margin-top: 40%
+            &__wrap_work
+                margin-top: 20px
+            &__mob_number, &__mob_mail
+                font-size: 14px !important
+                font-family: Montserrat;
+                font-style: normal;
+                font-weight: bold;
+                line-height: 18px;
+            &__mob_number
+                margin-top: 50px
+            &__mob_info_man ul li
+                list-style: none
+        .form
+
+            .build
+                margin-top: 241px
+            &__wrap_personal_data
+                align-items: center
+            .fileContainer
+                justify-content: center
+            &__personal_data
+                margin-right: 26%
+        .order_work
+            &__wrap_title
+                margin-left: 7%
+        .work
+            &__wrap_title_info
+                flex-direction: column
+            &__wrap_title
+                margin-bottom: 30px
+                width: 100%
+            &__wrap_info
+                width: 100%
+            &__wrap_img img
+                width: 543px
+            &__wrap_pic
+                flex-direction: column
+            &__title_wrap img
+                height: 255px
+                width: 100%
+            &__title_wrap
+                width: 100%
+            &__build
+                padding-left: 10%
+                padding-right: 0
+            &__wrap_company_info
+                width: 100%
+                margin-bottom: 50px
+            .mb
+                margin-bottom: 0
+            &__wrap_company_info img
+                height: 255px
+                width: 543px
+        .footer
+            &__wrap_social
+                width: 50%
+                margin-right: 0
+            &__wrap_info, &__wrap_social
+                padding-bottom: 70px
+
+    @media screen and ( max-width:810px)
+        .form
+            .fileContainer, &__wrap_personal_data button
+                width: 50%
+            &__personal_data
+                margin-right: 0
+            &__wrap_personal_data
+                flex-direction: column
+                align-items: flex-start
+            &__personal_data
+                margin-left: 0
+                margin-top: 20px
+                width: 100%
+
+        
+
+    @media screen and (max-width:768px)
+        .header
+            &__wrap_nav
+                display: none
+            &__wrap_mob_menu
+                position: absolute
+                z-index: 1
+                display: block
+            .btn 
+                height: 20px;
+                width: 30px;
+                cursor: pointer;
+                z-index: 2;
+                margin-left: 90%;
+                position: fixed 
+                margin-top: 15px
+            .btn::before, .btn::after 
+                content: '';
+                position: absolute;
+                width: 100%;
+                height: 5px;
+                background: #fff;
+                -webkit-transition: all .5s ease;
+                transition: all .5s ease;
+                margin-top: 4px;
+                border: 1px solid #000000
+                border-radius: 10px
+            .btn::after 
+                bottom: 13px;
+
+            .btn.active::before, .btn.active::after 
+                -webkit-transform-origin: center;
+                transform-origin: center;
+                top: 50%;
+            .btn.active::before 
+                -webkit-transform: rotate(45deg);
+                transform: rotate(45deg);
+                z-index: 2
+                margin-top: 0px
+            .btn.active::after 
+                -webkit-transform: rotate(-45deg);
+                transform: rotate(-45deg);
+                z-index: 2
+                margin-top: 0px
+            .mnu-wrap 
+                right: -100%;
+                top: 0;
+                position: fixed;
+                height: 100%;
+                background: #EA7303;
+                min-width: 300px;
+                z-index: 1;
+                -webkit-transition: all .5s ease;
+                transition: all .5s ease;
+            .mnu-wrap.active 
+                right: 0;
+            .mnu-wrap .mnu 
+                position: relative;
+                top: 50%;
+                -webkit-transform: translateY(-50%);
+                transform: translateY(-50%);
+                padding: 0 50px;
+            .mnu-wrap .mnu__list 
+                list-style-type: none;
+                padding: 0;
+                margin: 0;
+            .mnu-wrap .mnu__list li 
+                margin-bottom: 20px;
+                -webkit-transition: all .5s ease;
+                transition: all .5s ease;
+            .mnu-wrap .mnu__list li:hover 
+                border-left: 3px solid #ffffff
+                padding-left: 10px;
+                
+
+            .mnu-wrap .mnu__list li a 
+                text-decoration: none;
+                color: #242424;
+                font-size: 20px;
+                font-family: 'Roboto', sans-serif;
+            .carousel-caption
+                flex-direction: column
+                margin-top: 10%
+                width: 45%
+            &__info_man
+                display: none
+            &__first_name, body &__last_name,
+            &__three_name
+                font-size: 48px
+            &__name
+                margin-left: -25%
+            &__wrap_case
+                margin-bottom: 0
+            &__wrap_case a, &__wrap_work a
+               color: #000000
+            &__mob_info_man
+                margin-left: -35px
+                margin-top: 40%
+            &__wrap_work
+                margin-top: 20px
+            &__mob_number, &__mob_mail
+                font-size: 14px !important
+                font-family: Montserrat;
+                font-style: normal;
+                font-weight: bold;
+                line-height: 18px;
+            &__mob_number
+                margin-top: 50px
+            &__mob_info_man ul li
+                list-style: none
+        .form
+            .build
+                margin-top: 120px
+            .smeta_dbl
+                margin-bottom: 120px
+            &__personal_data
+                margin-right: 18%
+        .order_work
+            .info_project, .four_info,
+            .two_info
+                margin-right: 0
+                margin-left: 0
+            .team_work
+                margin: 0 auto
+        .work
+            &__wrap_img img
+                width: 100%
+            &__title_wrap img
+                height: 265px
+            &__story, &__build
+                width: 100%
+            &__title_wrap .d-flex
+                flex-direction: column
+            &__build
+                padding: 0
+                margin-top: -10%
+                margin-bottom: 30px
+            &__wrap_company_info img
+                width: 100%
+            &__wrap_company_info img
+                height: 300px
+            &__story .d-flex
+                flex-direction: inherit
+                //padding-top: 25px !important
+                //margin-top: 0
+        .footer
+            &__wrap_social, &__wrap_info
+                padding-bottom: 39px
+            
+    @media screen and ( max-width:650px)
+        .header
+            &__first_name, &__last_name, &__three_name
+                font-size: 34px
+            &__info_name
+                font-size: 14px
+
+        .form
+            &__section_one p
+                font-size: 40px
+        .order_work
+            &__wrap_title
+                font-size: 40px
+        .faq
+            &__title
+                font-size: 40px
+
+    @media screen and ( max-width:510px)
+        .header
+            .carousel-caption
+                margin-top: 4%
+            &__three_name
+                margin-bottom: 15px
+            &__first_name, &__last_name, &__three_name
+                font-size: 26px
+            &__name
+                width: 460px
+
+    @media screen and ( max-width:490px)
+        .form
+            .fileContainer, &__wrap_personal_data button
+                width: 60%
+        
+
+    @media screen and (max-width:414px)
+        .header
+            .btn
+                margin-left: 85%
+            .mnu
+                padding: 0 30px !important
+                top: 40% !important
+            .mnu-wrap
+                min-width: 245px
+            &__mob_info_man
+                margin-top: 15%
+            &__mob_number
+                margin-top: 15px
+            .btn.active::before 
+                margin-top: 0px
+            .btn.active::after 
+                margin-top: 0px
+            .carousel-caption
+                z-index: auto
+                margin-top: 16%
+            .img-fluid
+                max-width: 100%
+                height: 265px
+            &__name
+                width: max-content
+            &__first_name, &__last_name, 
+            &__three_name
+                font-size: 26px
+            &__info_name
+                line-height: normal
+                font-size: 14px
+            &__three_name
+                margin-bottom: 20px
+        .form
+            &__section_one p
+                font-size: 26px
+            .smeta, .smeta_dbl
+                margin-left: 0
+            .build
+                margin-top: 70px
+            .smeta_dbl
+                margin-bottom: 70px
+            &__title
+                font-size: 26px
+            &__project_title, &__contact
+                font-size: 20px
+            .fileContainer, &__wrap_personal_data button
+                width: 70%
+            &__wrap_personal_data button
+                margin: auto
+            .send_file
+                display: flex
+                justify-content: center
+            &__wrap_personal_data
+                flex-direction: column
+                margin-top: 5px
+                margin-bottom: 70px
+            &__personal_data
+                margin-right: 0
+                text-align: center
+                margin-top: 20px
+            &__wrap_personal_data .d-flex
+                justify-content: center
+            &__wrap_title_info
+                margin-top: 70px
+        .order_work
+            &__wrap_title
+                display: flex
+                margin-bottom: 50px
+            &__wrap_title p
+                font-size: 26px
+            &__order_dbl
+                padding-top: 45px
+                margin-left: 10px
+            &__order
+                padding-top: 45px
+            .team_work
+                margin: 0
+            &__info_work
+                margin-right: 0  !important
+                margin-left: 0 !important
+            &__wrap_info_work
+                justify-content: center
+        .work
+            &__title_wrap img
+                height: 150px
+            ul
+                padding-bottom: 45px
+            &__wrap_company_info img
+                height: 190px
+        .footer
+            &__wrap
+                flex-direction: column
+            &__wrap_social
+                width: 100%
+                padding-top: 25px
+            &__wrap_info
+                padding-bottom: 0
+        .faq
+            &__title
+                font-size: 26px            
+            .spoiler-title
+                padding-left: 25px
+            &__text_slide
+                padding-left: 0
+                text-align: center
+    @media screen and (max-width:411px)
+        .header
+            .btn
+                margin-left: 85%
+            .mnu
+                padding: 0 30px !important
+
+            .mnu-wrap
+                min-width: 245px
+            &__mob_info_man
+                margin-top: 15%
+            &__mob_number
+                margin-top: 15px
+            .btn.active::before 
+                margin-top: 0px
+            .btn.active::after 
+                margin-top: 0px
+            .carousel-caption
+                z-index: auto
+                margin-top: 16%
+            .img-fluid
+                max-width: 100%
+                height: 265px
+            &__name
+                width: max-content
+            &__first_name, &__last_name, 
+            &__three_name
+                font-size: 26px
+            &__info_name
+                line-height: normal
+                font-size: 14px
+            &__three_name
+                margin-bottom: 20px
+        .form
+            &__section_one p
+                font-size: 26px
+            .smeta, .smeta_dbl
+                margin-left: 0
+            .build
+                margin-top: 70px
+            .smeta_dbl
+                margin-bottom: 70px
+            &__title
+                font-size: 26px
+            &__project_title, &__contact
+                font-size: 20px
+            .fileContainer, &__wrap_personal_data button
+                width: 70%
+            .send_file
+                display: flex
+                justify-content: center
+            &__wrap_personal_data
+                flex-direction: column
+                margin-top: 5px
+                margin-bottom: 70px
+            &__personal_data
+                margin-right: 0
+                text-align: center
+                margin-top: 20px
+            &__wrap_personal_data .d-flex
+                justify-content: center
+            &__wrap_title_info
+                margin-top: 70px
+        .order_work
+            &__wrap_title
+                display: flex
+                margin-bottom: 50px
+            &__wrap_title p
+                font-size: 26px
+            &__order_dbl
+                padding-top: 45px
+                margin-left: 10px
+            &__order
+                padding-top: 45px
+            .team_work
+                margin: 0
+            &__info_work
+                margin-right: 0  !important
+                margin-left: 0 !important
+            &__wrap_info_work
+                justify-content: center
+        .work
+            &__title_wrap img
+                height: 150px
+            ul
+                padding-bottom: 45px
+            &__wrap_company_info img
+                height: 190px
+        .footer
+            &__wrap
+                flex-direction: column
+            &__wrap_social
+                width: 100%
+                padding-top: 25px
+            &__wrap_info
+                padding-bottom: 0
+        .faq
+            &__title
+                font-size: 26px           
+    @media screen and (max-width:375px)
+        .header
+            &__first_name, &__last_name, &__three_name
+                font-size: 24px
+
+            &__info_name
+                font-size: 14px
+                line-height: normal
+            .btn
+                margin-left: 85%
+            .mnu-wrap .mnu__list li a
+                font-size: 14px
+            &__wrap_case a, &__wrap_work a,
+            &__mob_number, &__mob_mail
+                font-size: 12px !important
+            .mnu-wrap
+                min-width: 200px
+            &__mob_info_man ul
+                padding-left: 36px
+            .mnu
+                padding-left: 20px !important
+                padding-right: 20px !important
+            .btn.active::before 
+                margin-top: 0px
+            .btn.active::after 
+                margin-top: 0px
+            .carousel-caption
+                z-index: auto
+                margin-top: 9%
+            &__three_name
+                margin-bottom: 10px
+            .img-fluid
+                max-width: 100%
+                height: 200px
+            &__name
+                width: max-content
+        .form
+            &__section_one p
+                font-size: 26px
+            .smeta, .smeta_dbl
+                margin-left: 0
+            .build
+                margin-top: 70px
+            .smeta_dbl
+                margin-bottom: 70px
+            &__title
+                font-size: 26px
+            &__project_title, &__contact
+                font-size: 20px
+            .fileContainer, &__wrap_personal_data button
+                width: 70%
+            .send_file
+                display: flex
+                justify-content: center
+            &__wrap_personal_data
+                flex-direction: column
+                margin-top: 5px
+                margin-bottom: 70px
+            &__personal_data
+                margin-right: 0
+                text-align: center
+                margin-top: 20px
+            &__wrap_personal_data .d-flex
+                justify-content: center
+            &__wrap_title_info
+                margin-top: 70px
+            .form-row
+                flex-direction: column
+            
+        .order_work
+            &__wrap_title
+                display: flex
+                margin-bottom: 50px
+            &__wrap_title p
+                font-size: 26px
+            &__order_dbl
+                padding-top: 45px
+                margin-left: 10px
+            &__order
+                padding-top: 45px
+            .team_work
+                margin: 0
+            &__info_work
+                margin-right: 0  !important
+                margin-left: 0 !important
+            &__wrap_info_work
+                justify-content: center
+        .work
+            &__title_wrap img
+                height: 150px
+            ul
+                padding-bottom: 45px
+            &__wrap_company_info img
+                height: 190px
+        .footer
+            &__wrap
+                flex-direction: column
+            &__wrap_social
+                width: 100%
+                padding-top: 25px
+            &__wrap_info
+                padding-bottom: 0
+        .faq
+            &__title
+                font-size: 26px
+
+    @media screen and (max-width:320px)
+        .header
+            .img-fluid
+                height: 200px
+            .carousel-caption
+                margin-top: 9%
+            &__first_name, &__last_name, &__three_name
+                font-size: 24px
+        .form
+            &__section_one .d-flex
+                letter-spacing: 1px
+            .fileContainer, &__wrap_personal_data button
+                width: 77%
+        .faq 
+            .spoiler-title
+                padding-right: 13px
+                padding-left: 7px
+            &__text_info_slide
+                padding-left: 30px
+                padding-right: 30px
+        .footer
+            &__wrap_info p
+                margin-left: 20px
+            &__wrap_social p
+                margin-right: 9%
+            &__wrap_social i
+                font-size: 24px
+
+    @media screen and (max-width:360px)
+        .header
+            .mnu
+                top: 30% !important
+            &__arrow_img img
+                display: none
+            .mnu-wrap
+                min-width: 160px
+        .faq
+            &__text_info_slide
+                padding-left: 25px
+                padding-right: 25px
+    
